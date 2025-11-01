@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+#hero {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBhiv18OKtm840-21kbbnWp2U48sRWcrDALSDpnDsRR9H4YOTrn5JsVo_WDtEMcAC0Hw&usqp=CAU");
+    background-size: cover;
+    padding: 75px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#hero:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjl1b2w4ZnpvYjNvc3IwZHZja3RocGd0YmJ1NndsbHRoMW8xaXpuZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Q7XTQiPav6joWskmGP/giphy.gif");
+}
+
+#hero-title {
+    background-color: #6BC2CA;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+#hero-details {
+    background-color: #499ca3;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+#activities-section {
+    margin: 0;
+    background: linear-gradient(#c5ece4, #f8fffe);
+    padding-bottom: 10px;
+    color: #3b312d;
+}
+
+#activities-sec-title {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#activities {
+    display: flex;
+    justify-content: center;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.activities-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+.activities-details {
+    margin-top: 10px;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 15px auto;
+    background-color:#0f4652;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px #3b312d;
+}
+
+#card-img {
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #3b312d;
+}
+
+#card-text {
+    padding-left: 15px;
+}
+
+#card-name {
+    color: #BE988B;
+}
